@@ -1,0 +1,108 @@
+
+/* --- MOBILE --- */
+
+@media screen and (max-width: 700px) {
+    body {
+       
+        font-family: 'Lato', sans-serif; 
+        margin: 0;
+        font-size: 1rem;
+        overflow: hidden;   
+        background-image: url(images/mobile.jpg);
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover; 
+
+        --blue-ncs: rgb(161, 208, 224);
+        --lapis-lazuli: rgb(95, 116, 185);       
+       
+      }
+      
+      section {  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+      
+      }
+   
+      h1 {
+        font-size: 1.9rem;
+        color: var(--blue-ncs);
+        margin-bottom: 0;
+      }
+
+      h2 {
+        color: var(--lapis-lazuli);
+      }
+
+     p {
+        margin: 0 2rem;
+        text-align: center;
+        color: var(--blue-ncs);
+        padding: 0.5rem;
+        border-radius: 5px;
+        background-color: rgba(124, 148, 190, 0.1);
+     }
+      
+      div.desktop-view {
+          display: none;
+      }
+      
+}
+
+
+  /* --- DESKTOP --- */
+@media screen and (min-width: 701px) {
+    body {
+        font-family: 'Kanit', sans-serif;
+        margin: 0;
+        font-size: 1rem;
+        overflow: hidden;   
+        background-image: url(images/desktop.jpg);
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover; 
+
+        --tropical-indigo: rgb(31, 13, 75);
+        --lavender-web: #E0DFEFff;
+        --periwinkle: #D7CCF5ff;
+    }
+
+    section {  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+      
+      }
+
+      h1 {
+        font-size: 2rem;
+        color: var(--tropical-indigo);
+        margin-bottom: 0;
+      }
+
+      h2 {
+        color: var(--periwinkle);
+        font-size: 1.6rem;
+      }
+
+     p {
+        margin: 1rem 10rem;
+        text-align: center;
+        color: var(--lavender-web);
+        padding: 0.5rem;
+        border-radius: 5px;
+        background-color: rgba(33, 43, 59, 0.4);
+        font-size: 1.1rem;
+        text-shadow:rgba(33, 43, 59, 0.9);
+       
+     }
+
+    div.mobile-view {
+        display: none;
+    }
+
+}
+   
